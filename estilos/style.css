@@ -1,0 +1,231 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;500;700&display=swap');
+
+* {
+    font-family: var(--chakra);
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --chakra: 'Chakra Petch', sans-serif;
+}
+
+body {
+    background-color: gray;
+    /* background-image: url('https://static.escolakids.uol.com.br/2023/08/paisagem-natural.jpg'); */
+}
+
+header {
+    width: 230px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    background-color: white;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    padding: 10px;
+    border-radius: 30px;
+}
+
+header a {
+    font-family: 'Chakra Petch', sans-serif;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.material-symbols-outlined {
+    vertical-align: middle;
+    margin: 0px 5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.377);
+}
+
+.hide {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    padding: 20px;
+}
+
+header a:hover .hide{
+    opacity: 1;
+}
+
+header a:hover {
+    color: white;
+}
+
+main {
+    display: block;
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50vw;
+    min-width: 280px;
+}
+
+main > h1 {
+    margin: 20px;
+    font-family: var(--chakra);
+    font-size: 4.5em;
+}
+
+main > p {
+    margin: 20px;
+    font-family: var(--chakra);
+    font-weight: 200;
+    font-size: 1.5em;
+}
+
+#stack {
+    margin: auto;
+}
+
+.ling-container {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.377);
+}
+
+.ling-container:hover {
+    border-radius: 50%;
+    outline: 1px solid white;
+}
+
+#ling {
+    width: 35px;
+    padding: 12px;
+    vertical-align: middle;
+}
+
+#info {
+    color: black;
+    text-decoration: none;
+    font-family: 'Chakra Petch', sans-serif;;
+    font-weight: 100;
+}
+
+section#aboutme {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    min-width: 350px;
+    margin-top: 1000px;
+    padding-top: 125px;
+}
+
+#perfil img {
+    display: block;
+    margin: 20px;
+    width: 30vw;
+    max-width: 300px;
+    min-width: 250px;
+    background-color: black;
+    border-radius: 50%;
+    top: 50%;
+    transform: translate;
+}
+
+article h2#hello {
+    text-align: center;
+    border-top: 1px solid black;
+    font-family: var(--chakra);
+    padding: 10px;
+}
+
+article p {
+    padding: 10px;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: 200;
+}
+
+#contato {
+    text-align: center;
+}
+
+.icon { 
+    width: 40px;
+    padding: 10px;
+}
+
+#contato > a > img:hover {
+    background-color: white;
+    border-radius: 50%;
+}
+
+section#projects {
+    vertical-align: middle;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    min-width: 350px;
+    margin-top: 300px;
+    padding-top: 50px;
+}
+
+article h1 {
+    text-align: center;
+    border-top: 1px solid black;
+    font-family: var(--chakra);
+    padding: 10px;
+    font-size: 2em;
+}
+
+#projects h2, h1 {
+    text-align: center;
+}
+
+#box {
+    width: 70vw;
+    min-width: 400px;
+    background-color: green;
+    text-align: center;
+    border-radius: 30px;
+    margin: 30px;
+}
+
+.img_p {
+    padding: 10px;
+    display: inline;
+    width: 250px;
+    border-radius: 30px;
+}
+
+#box p {
+    font-size: 1.2em;
+}
+
+#git_link {
+    vertical-align: middle;
+    width: 50px;
+    margin: 15px;
+}
+
+#acesso {
+    text-decoration: none;
+    vertical-align: middle;
+    font-size: 1.2em;
+}
