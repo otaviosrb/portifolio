@@ -129,8 +129,8 @@ section#aboutme {
     flex-direction: column;
     width: 30%;
     min-width: 350px;
-    margin-top: 1000px;
     padding-top: 125px;
+    margin-top: 800px;
 }
 
 #perfil img {
@@ -150,6 +150,8 @@ article h2#hello {
     border-top: 1px solid black;
     font-family: var(--chakra);
     padding: 10px;
+    width: 30vw;
+    margin: auto;
 }
 
 article p {
@@ -187,6 +189,8 @@ section#projects {
 }
 
 article h1 {
+    width: 40vw;
+    margin: auto;
     text-align: center;
     border-top: 1px solid black;
     font-family: var(--chakra);
