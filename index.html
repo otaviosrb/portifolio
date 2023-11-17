@@ -34,21 +34,34 @@
             <abbr title="Python"><img id="ling" src="imagens/python-logo.png" alt="PYTHON"></abbr>
             </div>
             <br>
-            <span><a id="info" href="">Saiba mais</a></span>
+            <button id="entrar">Saiba mais</button>
+            <dialog>
+                <ul>
+                    <li>HTML - Intermediário</li>
+                    <li>CSS - Intermediário</li>
+                    <li>JavaScript - Iniciante</li>
+                    <li>Python - Avançado</li>
+                </ul>
+                <button id="close">Fechar</button>
+            </dialog>
         </div>
     </main>
     <section id="aboutme">
         <div id="perfil">
             <img src="imagens/emoji.png" alt="Emoji - Otávio">
         </div>
-        <article>
+        <article id="about">
             <h2 id="hello">Olá, Mundo!</h2>
-            <p>Meu nome é Otávio Ribeiro, tenho 16 anos. Sou um programador apaixonado pelo o que faz, estudo há cerca de 1 ano. Comecei meus estudos em Python, após fiz HTML e CSS, e hoje estou estudando JavaScript.</p>
-            <p>Caso queira saber mais sobre meu trabalho, entre em contato comigo:</p>
+            <p>Meu nome é Otávio Ribeiro, tenho 16 anos. Sou um programador apaixonado pelo o que faz, estudo há cerca de 1 ano. Comecei meus estudos em Python, após fiz HTML e CSS, e hoje estou estudando JavaScript.
+                <br>
+                <br>
+            Caso queira saber mais sobre meu trabalho, entre em contato comigo:
+            </p>
+
             <div id="contato">
-                <a href="https://github.com/otaviosrb" target="_blank" ><img class="icon" src="imagens/logo-github.png" alt=""></a>
-                <a href=""><img class="icon" src="imagens/logo-discord.png" alt=""></a>
-                <a href=""><img class="icon" src="imagens/logo-insta.png" alt=""></a>
+                <a href="https://github.com/otaviosrb" target="_blank"><img id="gh" class="icon" src="imagens/logo-github.png" alt=""></a>
+                <a href=""><img id="dc" class="icon" src="imagens/logo-discord.png" alt=""></a>
+                <a href="" ><img id="insta" class="icon" src="imagens/logo-insta.png" alt=""></a>
             </div>
         </article>
     </section>
@@ -60,7 +73,7 @@
                 <h2>Página de Login</h2>
                 <p>descrição do projeto : Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, aliquam quisquam sunt nisi aperiam tenetur libero placeat illum animi vel, quam quasi nulla enim magnam nesciunt corrupti nam at harum!</p>
                 <a id="acesso" href="">Acessar site</a> <br>
-                <a href=""><img id="git_link" src="imagens/logo-github.png" alt=""></a>
+                <a href=""><img id="git_link"src="imagens/logo-github.png" alt=""></a>
             </div>
 
             <div id="box">
@@ -72,5 +85,6 @@
             </div>
         </article>
     </section>
+    <script src="script.js"></script>
 </body>
 </html>
