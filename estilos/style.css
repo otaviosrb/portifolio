@@ -15,12 +15,12 @@
     --cor3: #57449a;
     --cor4: #1f252f;
     --sombra: #1f252f79;
-
 }
 
 body {
     background-color: var(--cor1);
     background-image: url('../imagens/background.png');
+    background-position: top center;
     background-attachment: fixed;
     padding-top: 70px;
     background-size: cover;
@@ -91,7 +91,6 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 50vw;
-    min-width: 280px;
 }
 
 main > h1 {
@@ -149,14 +148,13 @@ section#aboutme {
     justify-content: center;
     flex-direction: column;
     width: 30%;
-    min-width: 350px;
     padding-top: 100px;
     margin-top: 1000px;
 }
 
 article#about {
     box-shadow: 2px 2px 4px var(--sombra);
-    min-width: 400px;
+    min-width: 350px;
     background-color: transparent;
     border-radius: 20px;
 }
@@ -287,6 +285,7 @@ article h1 {
 #box p {
     font-size: 1.2em;
     color: var(--cor4);
+    box-shadow: none;
 }
 
 #git_link {
@@ -308,6 +307,13 @@ article h1 {
     vertical-align: middle;
     font-size: 1.2em;
     color: var(--cor4);
+}
+
+#acesso:hover {
+    color: var(--cor2);
+    background-color: var(--cor3);
+    padding: 8px;
+    border-radius: 20px;
 }
 
 #entrar {
