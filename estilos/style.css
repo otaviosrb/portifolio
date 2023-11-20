@@ -157,6 +157,9 @@ article#about {
     min-width: 350px;
     background-color: transparent;
     border-radius: 20px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
 }
 
 #perfil img {
@@ -191,9 +194,6 @@ article p {
     font-size: 1.3em;
     font-weight: 200;
     color: var(--cor4);
-    background-color: transparent;
-    backdrop-filter: blur(10px);
-    border-radius: 20px;
 }
 
 #contato {
